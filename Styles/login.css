@@ -1,0 +1,30 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../Images/bg3.webp);
+  
+}
+#Container {
+  max-width: 600px;
+  border-radius: 20px;
+  background-color: rgba(255,255,255,0.1);
+  box-shadow: 5px 10px rgba(0,0,0,0.1);
+}
+#btnContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+#btnLogin{
+  width: 150px;
+  font-weight: 700;
+  font-size: large;
+}
+#register{
+  display: flex;
+  justify-content: center;
+  
+}
